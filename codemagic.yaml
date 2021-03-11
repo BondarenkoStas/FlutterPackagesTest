@@ -1,0 +1,10 @@
+workflows:
+  linux:
+    name: linux
+    instance_type: linux
+    scripts:
+      - |
+        #!/bin/bash
+
+        set -ex
+        echo 'bla bla bla'
